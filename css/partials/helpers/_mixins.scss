@@ -1,0 +1,7 @@
+@mixin horizontal-line {
+    content: '';
+    display: block;
+    width: 75%;
+    border-top: 1px solid hsl(0, 0%, 83%);
+    margin: 0 auto;
+}

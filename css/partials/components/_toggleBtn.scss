@@ -1,0 +1,65 @@
+@use "../helpers/_variables" as *;
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 3.2em;
+    height: 1.57em;
+    margin: 0 1em;
+
+    input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient($gradient);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 1.2em;
+    width: 1.2em;
+    left: 0.12em;
+    bottom: 0.18em;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+// input:checked + .slider {
+//     // background-color: #2196F3;
+//     background: hsl(236, 72%, 79%);
+// }
+
+// input:focus + .slider {
+//     box-shadow: 0 0 1px hsl(236, 72%, 79%);
+// }
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(1.7em);
+    -ms-transform: translateX(1.7em);
+    transform: translateX(1.7em);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
