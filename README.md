@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/KasparPartel/Frontend-Mentor---Pricing-component-with-toggle-solution.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution](https://github.com/KasparPartel/Frontend-Mentor---Pricing-component-with-toggle-solution.git)
+- Live Site URL: [live site](https://kasparpartel.github.io/Frontend-Mentor---Pricing-component-with-toggle-solution/)
 
 ## My process
 
